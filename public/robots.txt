@@ -1,0 +1,6 @@
+
+User-agent: *
+Disallow: /connexion
+Disallow: 
+
+Sitemap: https://f2i-dev-14-ba-ka-pc.vercel.app/sitemap.xml

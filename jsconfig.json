@@ -1,0 +1,18 @@
+// Permet d'aller directement dans le dossier grâce à @
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@services/*": ["services/*"],
+      "@context/*": ["auth/*"],
+      "@styles/*": ["styles/*"],
+      "@hooks/*": ["hooks/*"],
+      "@pages/*": ["pages/*"],
+      "@auth/*": ["auth/*"],
+      "@root/*": ["./*"]
+    }
+  },
+  "exclude": ["**/node_modules/*", "**/build/*"]
+}
